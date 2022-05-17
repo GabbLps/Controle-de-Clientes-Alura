@@ -1,1 +1,0 @@
-var campoFiltro = document.querySelector("#filtrar-tabela");

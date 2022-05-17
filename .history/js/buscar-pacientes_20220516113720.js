@@ -1,1 +1,0 @@
-var btnBuscarPaciente = document.querySelector("#buscar-paciente")

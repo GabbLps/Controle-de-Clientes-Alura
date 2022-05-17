@@ -1,1 +1,0 @@
-var botaoBuscar = document.querySelector("")
