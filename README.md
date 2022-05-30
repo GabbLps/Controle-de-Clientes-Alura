@@ -23,5 +23,7 @@ para ficar um sistema otimizado e automático, evitando que nosso código tenha 
 <br><br>
 
 <div>
-  <a href="" taget="_blank"></a>
-<div/>
+  <a href="https://gabblps.github.io/Controle-de-Clientes-Alura/" target="_blank">Clique aqui e veja como ficou!</a>
+<div/><br>
+
+  <img src="https://user-images.githubusercontent.com/101233353/168909066-967bb0e7-5655-460a-8924-d773e1df3b12.png">
