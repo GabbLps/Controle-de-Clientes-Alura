@@ -3,6 +3,11 @@ let count = 0;
 btnBuscarPaciente.addEventListener("click", function(){
     console.log("Buscando pacientes...");
     
+    if(count >= 1){
+        exibeErroBuscar("Os pacientes já foram buscados.");
+        return;
+    }
+
     var xhr = new XMLHttpRequest();
 
     xhr.open("GET", "https://api-pacientes.herokuapp.com/pacientes");
@@ -26,9 +31,6 @@ btnBuscarPaciente.addEventListener("click", function(){
     });
 
     xhr.send();
-    count = count + 1;
-    if (count = 1){
-        btnBuscarPaciente.disabled = true;
-    }
-
+    count = count +1;
+    
 });

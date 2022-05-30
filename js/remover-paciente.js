@@ -7,7 +7,11 @@ tabela.addEventListener("dblclick", function(e){
 
     setTimeout(function(){
         e.target.parentNode.remove();
+        var mensagensErro = document.querySelector("#erro-buscar-paciente");
+        mensagensErro.innerHTML = "";
     }, 500);
+
+    count = 0;
 
       // e. target = o filho que é clicado
 });  // parentNode é o pai dele.     e.target = alvoDoEvento e o parentNode = o pai dele.

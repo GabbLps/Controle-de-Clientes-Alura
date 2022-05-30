@@ -31,6 +31,9 @@ botaoAdicionar.addEventListener("click", function(event) {
     }
 
     function exibeMensagensDeErro(erros) {
+
+        
+
         var ul = document.querySelector("#mensagens-erro");
         ul.innerHTML = "";
         erros.forEach(function(erro){
@@ -38,6 +41,16 @@ botaoAdicionar.addEventListener("click", function(event) {
             li.textContent = erro;
             ul.appendChild(li);
         });
+    }
+
+    function exibeErroBuscar(erro){
+        if(count >=1){
+            var ul = document.querySelector("#erro-buscar-paciente");
+            ul.innerHTML = "";
+            var li = document.createElement("li");
+            li.textContent = erro;
+            ul.appendChild(li);
+        }
     }
 
 function obtemPacienteDoFormulario(form) {
